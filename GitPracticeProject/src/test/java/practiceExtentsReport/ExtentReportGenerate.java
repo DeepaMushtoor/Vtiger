@@ -25,7 +25,7 @@ public class ExtentReportGenerate extends BaseClass {
 		test.log(Status.INFO, "create contact");
 		if ("var".equals("deepu"))
 		{
-			test.log(Status.PASS, "CONTACT CREATED");
+			test.log(Status.PASS, "CONTACT CREATED1");
 		}
 		else {
 			test.log(Status.FAIL, "CONTACT NOT CREATED");
